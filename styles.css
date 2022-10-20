@@ -35,10 +35,14 @@ h1 {
 }
 
 h2.sec {
-  font-family: Didot, Arial, Helvetica, sans-serif;
+  font-family: Sofia, Arial, Helvetica, sans-serif;
   font-size: 1.75em;
   text-align: center;
   text-decoration: underline;
+}
+
+p {
+  font-family: Poppins, 'Times New Roman', Times, serif;
 }
 
 h2 {
