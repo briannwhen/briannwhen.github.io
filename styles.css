@@ -14,6 +14,10 @@ body {
   line-height: 1.5;
 }
 
+.languages {
+  background-color: #DCE4B4;
+}
+
 img {
   width: 300px;
   border: #131B23 solid ;
@@ -40,6 +44,13 @@ svg {
 	height: auto;
 }
 
+
+.cent {
+  list-style: square;
+  list-style-position: inside;
+  text-align: center;
+}
+
 p {
   font-family: 'Zen Antique Soft', 'Times New Roman', Times, serif;
 }
@@ -56,7 +67,7 @@ a.bttn  {
   background-color: #584b53;
   border-radius: 1.5em;
   margin-left: 15px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   margin-right: 15px;
   text-decoration: none;
   color: #FFF4E9;
@@ -84,7 +95,7 @@ a:active.bttn {
   max-width: 800px;
   width: 85%;
   margin: 0 auto;
-  padding: 10px 0;
+  padding: 18px 0;
 }
 
 h3 {
@@ -104,13 +115,13 @@ img {
 /* Profile
 ------------------------------------*/
 header {
-  background-color: #D6E3F8;
+  background-color: #483933;
   padding-top: 30px;
+  color: whitesmoke;
 }
 
 footer {
-  background-color: #242E27;
-  color: whitesmoke;
+  background-color: #F0EAD2;
 }
 
 
@@ -133,7 +144,7 @@ footer {
 }
 
 .projects {
-  background-color: #BBCC8F;
+  background-color: #C5E7E6;
   padding-top: 0px;
 }
 
@@ -149,9 +160,8 @@ footer {
 }
 
 .education {
-  background-color: #E8DBC5;
+  background-color: #CCB6A4;
   background-position: top right;
-  padding-bottom: 50px;
 }
 
 .education p {
@@ -179,6 +189,12 @@ footer {
 @media screen and (min-width:750px){
   header, footer {
     text-align: center;
+  }
+
+  #sac {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px
   }
 
   .project-item img {
@@ -214,6 +230,15 @@ footer {
 @media screen and (max-width:749px){
   body {
     text-align: center;
+    min-width: 400px;
+  }
+
+  ul {
+    list-style-position: inside;
+  }
+
+  #sac {
+    margin-top: 0px
   }
 
   h1 {
