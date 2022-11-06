@@ -102,6 +102,10 @@ h3 {
   margin-bottom: 0;
 }
 
+ul {
+  padding-left: 0px;
+}
+
 .item-details h3 + p {
   font-style: italic;
   margin: 0 auto;
@@ -205,6 +209,7 @@ footer {
   .project-item ul {
     display: inline-block;
     width: 49%;
+    padding-left: 40px;
   }
 
   .job-item {
