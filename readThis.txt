@@ -1,7 +1,0 @@
-github-pages link: https://briannwhen.github.io/
-
-Extra Credit #2
-Google Fonts Used:
-Trirong
-Sofia 
-Poppins
