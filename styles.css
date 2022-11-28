@@ -92,6 +92,9 @@ a.bttn  {
   color: #FFF4E9;
 }
 
+svg {
+  width: 100%;
+}
 
 header h2 {
   font-size: 2em;
